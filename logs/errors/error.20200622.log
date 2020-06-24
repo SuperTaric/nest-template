@@ -1,0 +1,64 @@
+{"date":"2020-06-22T16:22:32.193","level":"ERROR","category":"default","host":"192.168.1.165","pid":"28372","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: mobile must be a number conforming to the specified constraints'}
+{"date":"2020-06-22T16:24:32.368","level":"ERROR","category":"default","host":"192.168.1.165","pid":"28372","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: mobile must be a number conforming to the specified constraints'}
+{"date":"2020-06-22T16:25:23.786","level":"ERROR","category":"default","host":"192.168.1.165","pid":"29563","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: 真实姓名必须是 String 类型'}
+{"date":"2020-06-22T16:25:31.812","level":"ERROR","category":"default","host":"192.168.1.165","pid":"29563","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: mobile must be a number conforming to the specified constraints'}
+{"date":"2020-06-22T17:11:27.649","level":"ERROR","category":"default","host":"192.168.1.165","pid":"43562","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Out of range value for column 'sale_money' at row 1 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:12:34.620","level":"ERROR","category":"default","host":"192.168.1.165","pid":"43562","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:12:46.634","level":"ERROR","category":"default","host":"192.168.1.165","pid":"43562","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:13:00.653","level":"ERROR","category":"default","host":"192.168.1.165","pid":"43562","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:16:29.339","level":"ERROR","category":"default","host":"192.168.1.165","pid":"44433","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:16:36.346","level":"ERROR","category":"default","host":"192.168.1.165","pid":"44433","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T18:11:55.919","level":"ERROR","category":"default","host":"192.168.1.165","pid":"60733","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: mobile must be a number conforming to the specified constraints'}

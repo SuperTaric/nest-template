@@ -1,0 +1,1289 @@
+[2020-06-22T15:41:28.156] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T15:42:19.954] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test1"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T15:47:13.101] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test1"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T15:47:13.126] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwicmVhbE5hbWUiOiJ0ZXN0MTEiLCJyb2xlIjozLCJpYXQiOjE1OTI4MTIwMzMsImV4cCI6MTU5Mjg0MDgzM30.4yF2h4FCBrQ8xG6aofYNPa9LeI9gpOp5DuU2SEpafb4"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T15:48:02.219] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T15:48:02.232] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T15:49:31.210] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test1"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T15:58:39.410] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T15:59:08.904] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:02:34.697] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:02:37.596] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:02:37.616] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T16:02:40.320] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:03:07.363] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:03:10.178] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:03:10.191] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T16:03:20.122] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:03:20.145] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T16:22:32.185] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:24:32.366] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:24:40.723] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":13120464653} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:24:40.742] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T16:24:57.288] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":123456,"repassword":"123456","mobile":13120464653} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:24:57.298] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T16:25:02.070] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":123456,"repassword":123456,"mobile":13120464653} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:25:02.086] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T16:25:23.783] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":33,"password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:25:31.810] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:53:48.239] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"columnId":1,"name":"测试商品","description":"这是第一个商品","marketPrice":123,"saleMoney":20} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:53:54.913] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test1"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:53:54.936] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwicmVhbE5hbWUiOiJ0ZXN0MTEiLCJyb2xlIjozLCJpYXQiOjE1OTI4MTYwMzQsImV4cCI6MTU5Mjg0NDgzNH0.KoHl5MJXDzD8A3wPSBCuaSXkIFgJ4HM2mC9ElyvT6Mw"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T16:54:27.111] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"columnId":1,"name":"测试商品","description":"这是第一个商品","marketPrice":123,"saleMoney":20} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:56:01.531] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test3"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:56:01.558] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QzIiwicmVhbE5hbWUiOiJ0ZXN0MzMiLCJyb2xlIjoyLCJpYXQiOjE1OTI4MTYxNjEsImV4cCI6MTU5Mjg0NDk2MX0.vUZwAHT3jPSHsGIWlBvgQkcLc1wFgn9_GkMpAGD8XI0"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T16:56:10.012] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"columnId":1,"name":"测试商品","description":"这是第一个商品","marketPrice":123,"saleMoney":20} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T16:56:10.026] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T17:08:04.321] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"columnId":2,"name":"锤子","description":"这是一个锤子","marketPrice":1230,"saleMoney":2000} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:08:04.360] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T17:09:58.830] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":20000} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:09:58.863] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T17:10:13.487] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":20000} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:10:13.505] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T17:10:25.374] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":20000} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:10:41.516] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":200001} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:10:58.641] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":200001} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:11:27.629] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":200001} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:11:43.493] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:11:55.523] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:12:09.577] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:14:03.221] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:14:03.242] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T17:14:25.305] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":11,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:14:25.320] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T17:15:38.742] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":1,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:15:45.283] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":1,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:45:33.599] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:45:33.650] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:45:33.651] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:45:33.655] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:45:33.657] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:45:34.059] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:46:48.116] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:46:48.136] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:46:48.139] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:46:48.141] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:46:48.143] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:46:48.313] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:24.887] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:24.922] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:24.923] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:24.925] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:24.927] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:25.293] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:34.736] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:34.778] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:34.780] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:34.782] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:34.784] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:47:35.129] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:48:48.720] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:48:48.740] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:48:48.742] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:48:48.745] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:48:48.747] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T17:48:48.919] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:05:37.055] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:05:37.078] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:05:37.080] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:05:37.082] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:05:37.084] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:05:37.221] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:06:36.034] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:09:34.142] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:09:34.164] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T18:10:26.392] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:10:26.435] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:10:26.437] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:10:26.439] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:10:26.441] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:10:26.595] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:10:49.102] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"username":"test1","password":"123456"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:10:49.126] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwicmVhbE5hbWUiOiJ0ZXN0MTEiLCJyb2xlIjozLCJpYXQiOjE1OTI4MjA2NDksImV4cCI6MTU5Mjg0OTQ0OX0.VUv5Z_X6bH1VXeecUcVKjUgl4BlaqRklf4qm6HJFbhw"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T18:11:55.914] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:12:09.511] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":13120464653} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:12:09.529] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T18:12:20.987] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test4","realName":"test44","password":"123456","repassword":"123456","mobile":13120464654} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:12:21.019] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2020-06-22T18:14:13.346] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:13.369] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:13.373] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:13.375] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:13.377] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:13.519] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:16.275] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:16.292] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:16.294] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:16.296] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:16.298] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:16.380] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:24.675] [INFO] http - logger.middleware.js(line: 52, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"username":"test1","password":"123456"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
+[2020-06-22T18:14:24.698] [INFO] http - transform.interceptor.js(line: 25, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwicmVhbE5hbWUiOiJ0ZXN0MTEiLCJyb2xlIjozLCJpYXQiOjE1OTI4MjA4NjQsImV4cCI6MTU5Mjg0OTY2NH0.B13awAx_QFBQGsEIqt_TOQKq0oUt_rWkCFJfNEGtju8"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

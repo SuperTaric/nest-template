@@ -1,0 +1,1488 @@
+{"date":"2020-06-22T15:41:28.157","level":"INFO","category":"default","host":"192.168.1.165","pid":"16387","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T15:42:19.955","level":"INFO","category":"default","host":"192.168.1.165","pid":"16837","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test1"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T15:47:13.102","level":"INFO","category":"default","host":"192.168.1.165","pid":"18244","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test1"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T15:47:13.125","level":"INFO","category":"default","host":"192.168.1.165","pid":"18244","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwicmVhbE5hbWUiOiJ0ZXN0MTEiLCJyb2xlIjozLCJpYXQiOjE1OTI4MTIwMzMsImV4cCI6MTU5Mjg0MDgzM30.4yF2h4FCBrQ8xG6aofYNPa9LeI9gpOp5DuU2SEpafb4"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T15:48:02.219","level":"INFO","category":"default","host":"192.168.1.165","pid":"18244","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T15:48:02.231","level":"INFO","category":"default","host":"192.168.1.165","pid":"18244","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T15:49:31.211","level":"INFO","category":"default","host":"192.168.1.165","pid":"19006","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test1"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T15:58:39.411","level":"INFO","category":"default","host":"192.168.1.165","pid":"21511","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T15:59:08.904","level":"INFO","category":"default","host":"192.168.1.165","pid":"21881","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T15:59:08.906","level":"INFO","category":"default","host":"192.168.1.165","pid":"21881","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 401
+    Response: Error: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:02:34.698","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:02:34.700","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 401
+    Response: Error: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:02:37.596","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:02:37.615","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T16:02:40.320","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:02:40.321","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 401
+    Response: Error: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:03:07.363","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:03:07.364","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 401
+    Response: Error: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:03:10.179","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test2","realName":"test22","password":"123456","repassword":"123456","mobile":"13120464652"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:03:10.191","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T16:03:20.122","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:03:20.145","level":"INFO","category":"default","host":"192.168.1.165","pid":"22864","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T16:22:32.187","level":"INFO","category":"default","host":"192.168.1.165","pid":"28372","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:22:32.193","level":"ERROR","category":"default","host":"192.168.1.165","pid":"28372","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: mobile must be a number conforming to the specified constraints'}
+{"date":"2020-06-22T16:22:32.195","level":"INFO","category":"default","host":"192.168.1.165","pid":"28372","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 400
+    Response: Error: Validation failed: mobile must be a number conforming to the specified constraints 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:23:43.096","level":"INFO","category":"default","host":"192.168.1.165","pid":"28372","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 400
+    Response: Error: Unexpected string in JSON at position 27 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:24:03.876","level":"INFO","category":"default","host":"192.168.1.165","pid":"28372","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 400
+    Response: Error: Unexpected string in JSON at position 27 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:24:32.367","level":"INFO","category":"default","host":"192.168.1.165","pid":"28372","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:24:32.368","level":"ERROR","category":"default","host":"192.168.1.165","pid":"28372","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: mobile must be a number conforming to the specified constraints'}
+{"date":"2020-06-22T16:24:32.368","level":"INFO","category":"default","host":"192.168.1.165","pid":"28372","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 400
+    Response: Error: Validation failed: mobile must be a number conforming to the specified constraints 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:24:40.723","level":"INFO","category":"default","host":"192.168.1.165","pid":"28372","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":13120464653} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:24:40.741","level":"INFO","category":"default","host":"192.168.1.165","pid":"28372","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T16:24:57.290","level":"INFO","category":"default","host":"192.168.1.165","pid":"29563","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":123456,"repassword":"123456","mobile":13120464653} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:24:57.297","level":"INFO","category":"default","host":"192.168.1.165","pid":"29563","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T16:25:02.070","level":"INFO","category":"default","host":"192.168.1.165","pid":"29563","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":123456,"repassword":123456,"mobile":13120464653} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:25:02.085","level":"INFO","category":"default","host":"192.168.1.165","pid":"29563","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T16:25:14.778","level":"INFO","category":"default","host":"192.168.1.165","pid":"29563","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 400
+    Response: Error: Unexpected string in JSON at position 114 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:25:23.783","level":"INFO","category":"default","host":"192.168.1.165","pid":"29563","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":33,"password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:25:23.786","level":"ERROR","category":"default","host":"192.168.1.165","pid":"29563","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: 真实姓名必须是 String 类型'}
+{"date":"2020-06-22T16:25:23.787","level":"INFO","category":"default","host":"192.168.1.165","pid":"29563","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 400
+    Response: Error: Validation failed: 真实姓名必须是 String 类型 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:25:31.811","level":"INFO","category":"default","host":"192.168.1.165","pid":"29563","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:25:31.812","level":"ERROR","category":"default","host":"192.168.1.165","pid":"29563","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: mobile must be a number conforming to the specified constraints'}
+{"date":"2020-06-22T16:25:31.812","level":"INFO","category":"default","host":"192.168.1.165","pid":"29563","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 400
+    Response: Error: Validation failed: mobile must be a number conforming to the specified constraints 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:53:48.240","level":"INFO","category":"default","host":"192.168.1.165","pid":"36989","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"columnId":1,"name":"测试商品","description":"这是第一个商品","marketPrice":123,"saleMoney":20} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:53:48.242","level":"INFO","category":"default","host":"192.168.1.165","pid":"36989","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 401
+    Response: Error: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:53:54.913","level":"INFO","category":"default","host":"192.168.1.165","pid":"36989","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test1"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:53:54.936","level":"INFO","category":"default","host":"192.168.1.165","pid":"36989","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwicmVhbE5hbWUiOiJ0ZXN0MTEiLCJyb2xlIjozLCJpYXQiOjE1OTI4MTYwMzQsImV4cCI6MTU5Mjg0NDgzNH0.KoHl5MJXDzD8A3wPSBCuaSXkIFgJ4HM2mC9ElyvT6Mw"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T16:54:27.112","level":"INFO","category":"default","host":"192.168.1.165","pid":"36989","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"columnId":1,"name":"测试商品","description":"这是第一个商品","marketPrice":123,"saleMoney":20} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:54:27.113","level":"INFO","category":"default","host":"192.168.1.165","pid":"36989","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 403
+    Response: Error: 对不起，您无权操作 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T16:56:01.532","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"password":"123456","username":"test3"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:56:01.557","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QzIiwicmVhbE5hbWUiOiJ0ZXN0MzMiLCJyb2xlIjoyLCJpYXQiOjE1OTI4MTYxNjEsImV4cCI6MTU5Mjg0NDk2MX0.vUZwAHT3jPSHsGIWlBvgQkcLc1wFgn9_GkMpAGD8XI0"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T16:56:10.013","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"columnId":1,"name":"测试商品","description":"这是第一个商品","marketPrice":123,"saleMoney":20} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T16:56:10.025","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T17:08:04.322","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"columnId":2,"name":"锤子","description":"这是一个锤子","marketPrice":1230,"saleMoney":2000} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:08:04.359","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T17:09:58.831","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":20000} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:09:58.862","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/create
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T17:10:13.487","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":20000} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:10:13.505","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T17:10:25.374","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":20000} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:10:41.517","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":200001} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:10:58.642","level":"INFO","category":"default","host":"192.168.1.165","pid":"38468","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":200001} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:11:27.630","level":"INFO","category":"default","host":"192.168.1.165","pid":"43562","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":200001} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:11:27.649","level":"ERROR","category":"default","host":"192.168.1.165","pid":"43562","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Out of range value for column 'sale_money' at row 1 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:11:43.495","level":"INFO","category":"default","host":"192.168.1.165","pid":"43562","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":12300,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:11:55.524","level":"INFO","category":"default","host":"192.168.1.165","pid":"43562","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:12:09.580","level":"INFO","category":"default","host":"192.168.1.165","pid":"43562","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:12:34.620","level":"ERROR","category":"default","host":"192.168.1.165","pid":"43562","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:12:46.634","level":"ERROR","category":"default","host":"192.168.1.165","pid":"43562","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:13:00.653","level":"ERROR","category":"default","host":"192.168.1.165","pid":"43562","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:14:03.222","level":"INFO","category":"default","host":"192.168.1.165","pid":"44433","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:14:03.241","level":"INFO","category":"default","host":"192.168.1.165","pid":"44433","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T17:14:25.305","level":"INFO","category":"default","host":"192.168.1.165","pid":"44433","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":11,"columnId":2,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:14:25.320","level":"INFO","category":"default","host":"192.168.1.165","pid":"44433","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    User: {"username":"test3","realName":"test33","role":2}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T17:15:38.742","level":"INFO","category":"default","host":"192.168.1.165","pid":"44433","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":1,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:15:45.284","level":"INFO","category":"default","host":"192.168.1.165","pid":"44433","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"id":1,"columnId":1,"name":"锤子xiuga","description":"这是一个锤子","marketPrice":123,"saleMoney":200} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:16:29.339","level":"ERROR","category":"default","host":"192.168.1.165","pid":"44433","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:16:36.346","level":"ERROR","category":"default","host":"192.168.1.165","pid":"44433","data":'any-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /commodity/update
+    Method: POST
+    IP: ::1
+    Status code: 500
+    Response: SequelizeDatabaseError: Lock wait timeout exceeded; try restarting transaction 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T17:45:33.600","level":"INFO","category":"default","host":"192.168.1.165","pid":"53361","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:45:33.650","level":"INFO","category":"default","host":"192.168.1.165","pid":"53361","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:45:33.652","level":"INFO","category":"default","host":"192.168.1.165","pid":"53361","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:45:33.656","level":"INFO","category":"default","host":"192.168.1.165","pid":"53361","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:45:33.658","level":"INFO","category":"default","host":"192.168.1.165","pid":"53361","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:45:34.059","level":"INFO","category":"default","host":"192.168.1.165","pid":"53361","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:46:48.117","level":"INFO","category":"default","host":"192.168.1.165","pid":"53807","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:46:48.137","level":"INFO","category":"default","host":"192.168.1.165","pid":"53807","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:46:48.139","level":"INFO","category":"default","host":"192.168.1.165","pid":"53807","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:46:48.141","level":"INFO","category":"default","host":"192.168.1.165","pid":"53807","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:46:48.144","level":"INFO","category":"default","host":"192.168.1.165","pid":"53807","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:46:48.313","level":"INFO","category":"default","host":"192.168.1.165","pid":"53807","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:24.888","level":"INFO","category":"default","host":"192.168.1.165","pid":"54025","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:24.922","level":"INFO","category":"default","host":"192.168.1.165","pid":"54025","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:24.924","level":"INFO","category":"default","host":"192.168.1.165","pid":"54025","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:24.925","level":"INFO","category":"default","host":"192.168.1.165","pid":"54025","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:24.927","level":"INFO","category":"default","host":"192.168.1.165","pid":"54025","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:25.294","level":"INFO","category":"default","host":"192.168.1.165","pid":"54025","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:34.737","level":"INFO","category":"default","host":"192.168.1.165","pid":"54095","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:34.778","level":"INFO","category":"default","host":"192.168.1.165","pid":"54095","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:34.780","level":"INFO","category":"default","host":"192.168.1.165","pid":"54095","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:34.783","level":"INFO","category":"default","host":"192.168.1.165","pid":"54095","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:34.785","level":"INFO","category":"default","host":"192.168.1.165","pid":"54095","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:47:35.129","level":"INFO","category":"default","host":"192.168.1.165","pid":"54095","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:48:48.721","level":"INFO","category":"default","host":"192.168.1.165","pid":"54480","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:48:48.741","level":"INFO","category":"default","host":"192.168.1.165","pid":"54480","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:48:48.742","level":"INFO","category":"default","host":"192.168.1.165","pid":"54480","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:48:48.745","level":"INFO","category":"default","host":"192.168.1.165","pid":"54480","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:48:48.748","level":"INFO","category":"default","host":"192.168.1.165","pid":"54480","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T17:48:48.920","level":"INFO","category":"default","host":"192.168.1.165","pid":"54480","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:05:37.056","level":"INFO","category":"default","host":"192.168.1.165","pid":"59221","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:05:37.079","level":"INFO","category":"default","host":"192.168.1.165","pid":"59221","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:05:37.080","level":"INFO","category":"default","host":"192.168.1.165","pid":"59221","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:05:37.082","level":"INFO","category":"default","host":"192.168.1.165","pid":"59221","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:05:37.084","level":"INFO","category":"default","host":"192.168.1.165","pid":"59221","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:05:37.221","level":"INFO","category":"default","host":"192.168.1.165","pid":"59221","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:06:36.035","level":"INFO","category":"default","host":"192.168.1.165","pid":"59221","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:06:36.036","level":"INFO","category":"default","host":"192.168.1.165","pid":"59221","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 401
+    Response: Error: Unauthorized 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T18:09:34.143","level":"INFO","category":"default","host":"192.168.1.165","pid":"60396","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:09:34.163","level":"INFO","category":"default","host":"192.168.1.165","pid":"60396","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T18:10:26.393","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:10:26.436","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:10:26.437","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:10:26.439","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:10:26.441","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:10:26.595","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:10:49.102","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"username":"test1","password":"123456"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:10:49.126","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwicmVhbE5hbWUiOiJ0ZXN0MTEiLCJyb2xlIjozLCJpYXQiOjE1OTI4MjA2NDksImV4cCI6MTU5Mjg0OTQ0OX0.VUv5Z_X6bH1VXeecUcVKjUgl4BlaqRklf4qm6HJFbhw"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T18:11:55.914","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":"13120464653"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:11:55.919","level":"ERROR","category":"default","host":"192.168.1.165","pid":"60733","data":'validation.pipe.js(line: 24, column: 29): 
+ Validation failed: mobile must be a number conforming to the specified constraints'}
+{"date":"2020-06-22T18:11:55.920","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'http-exception.filter.js(line: 25, column: 25): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 400
+    Response: Error: Validation failed: mobile must be a number conforming to the specified constraints 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    '}
+{"date":"2020-06-22T18:12:09.511","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test3","realName":"test33","password":"123456","repassword":"123456","mobile":13120464653} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:12:09.529","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T18:12:20.988","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"accountName":"test4","realName":"test44","password":"123456","repassword":"123456","mobile":13120464654} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:12:21.019","level":"INFO","category":"default","host":"192.168.1.165","pid":"60733","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/register
+    Method: POST
+    IP: ::1
+    User: {"username":"test1","realName":"test11","role":3}
+    Response data:
+ undefined
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
+{"date":"2020-06-22T18:14:13.347","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:13.370","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:13.373","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:13.375","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:13.378","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:13.520","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:16.276","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:16.292","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui.css
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:16.295","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-bundle.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:16.297","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-standalone-preset.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:16.298","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/swagger-ui-init.js
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:16.381","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /api-doc/favicon-32x32.png
+    Method: GET
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:24.676","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'logger.middleware.js(line: 53, column: 25): 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    Status code: 200
+    Parmas: {}
+    Query: {}
+    Body: {"username":"test1","password":"123456"} 
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  '}
+{"date":"2020-06-22T18:14:24.698","level":"INFO","category":"default","host":"192.168.1.165","pid":"61809","data":'transform.interceptor.js(line: 24, column: 29): 
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    Request original url: /user/login
+    Method: POST
+    IP: ::1
+    User: undefined
+    Response data:
+ {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwicmVhbE5hbWUiOiJ0ZXN0MTEiLCJyb2xlIjozLCJpYXQiOjE1OTI4MjA4NjQsImV4cCI6MTU5Mjg0OTY2NH0.B13awAx_QFBQGsEIqt_TOQKq0oUt_rWkCFJfNEGtju8"}
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'}
